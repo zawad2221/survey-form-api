@@ -7,19 +7,20 @@
 
 ## api
 
-1. Get ResponseForm data\n
+1. Get ResponseForm data
  www.yourdomain.com/form/getFormData/
 
-2. Save Response\n
- www.yourdomain.com/form/saveResponse/\n
+2. Save Response
+ www.yourdomain.com/form/saveResponse/
+ 
  body
- {
-      
-        "email": "ria@gmail.com",
+ 
+     {
+        "email": "ri@gmail.com",
         "age": 22,
         "gender": "Male",
-        "height": "3'",
-        "weight": 33.0,
+        "height": "5'9''",
+        "weight": 73.0,
         "answers": [
             {
                 "questionNumber": "1",
